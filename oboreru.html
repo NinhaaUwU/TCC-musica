@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oboreru Sakana - Dadaroma</title>
+
+  <!-- Ligação com o arquivo CSS -->
+  <link rel="stylesheet" href="oboreru.css">
+</head>
+<body>
+  <a href="index.html" class="btn-voltar">
+    <span class="setinha">𒌋 Voltar</span>
+        
+</a>
+  <header>
+    <img src="pentagram-159046_640.png" alt="Oboreru Sakana banner" class="header-img">
+    <h1>Oboreru Sakana</h1>
+    <h2>Dadaroma</h2>
+  </header>
+
+  <div class="lyrics">
+
+    <div class="verse">
+      <p class="jp">透き通った水槽の世界</p>
+      <p class="romaji">sukitootta suisou no sekai</p>
+      <p class="jp">こぼした墨はもう救えない</p>
+      <p class="romaji">koboshita sumi wa mou sukuenai</p>
+    </div>
+
+    <img src="sasa.jpg" alt="Fish image" class="lyric-image">
+
+    <div class="verse highlight">
+      <p>The definition of the freedom to force</p>
+      <p>People who cannot notice manipulated</p>
+      <p>Stop talks. no, I am</p>
+    </div>
+
+    <img src="siii.jpg" alt="Ink image" class="lyric-image">
+
+    <div class="verse">
+      <p class="jp">溺れる魚 水槽の中</p>
+      <p class="romaji">oboreru sakana suisou no naka</p>
+      <p class="jp">鳥籠の鳥 窮屈な空</p>
+      <p class="romaji">torikago no tori  kyuukutsu na sora</p>
+    </div>
+
+  </div>
+
+  <footer>
+   
+  </footer>
+
+  <!-- Bolhas -->
+  <script>
+    const numBubbles = 25;
+    for (let i = 0; i < numBubbles; i++) {
+      const bubble = document.createElement('div');
+      bubble.classList.add('bubble');
+      bubble.style.width = Math.random() * 20 + 10 + 'px';
+      bubble.style.height = bubble.style.width;
+      bubble.style.left = Math.random() * 100 + '%';
+      bubble.style.animationDuration = 10 + Math.random() * 20 + 's';
+      bubble.style.animationDelay = Math.random() * 10 + 's';
+      document.body.appendChild(bubble);
+    }
+  </script>
+
+</body>
+</html>

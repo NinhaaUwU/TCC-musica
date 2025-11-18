@@ -1,0 +1,59 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background: rgb(127, 1, 8);
+    color: rgb(70, 10, 10);
+}
+
+header {
+    background: rgb(105, 14, 14);
+    color: rgb(170, 208, 241);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+    font-size: 2.5rem;
+
+}
+
+header p{
+    font-size: 1.2rem;
+
+}
+
+section{
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+
+}
+.purge{
+    display:flex;
+    margin-left: 0%;
+}
+.purge img{
+    width: 360px;
+    
+  }
+.purge h2{
+    margin-left: 15%;
+  }
+    
+h2 {
+    color: rgb(55, 138, 201);
+}
+
+ul{
+    list-style: square;
+}
+
+.conteudo {
+    background-color: rgb(4, 4, 67);
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 20px auto;
+    color: #be3232;
+}

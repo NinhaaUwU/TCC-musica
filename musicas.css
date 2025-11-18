@@ -1,0 +1,84 @@
+/* Paleta */
+:root {
+    --azul-escuro: #1a2340;
+    --roxo: #6f41a8;
+    --azul-claro: #78c4ff;
+}
+
+/* Geral */
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, var(--azul-escuro), var(--roxo));
+    color: rgb(8, 8, 8);
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    padding: 25px 0;
+    background: rgba(0,0,0,0.25);
+    backdrop-filter: blur(5px);
+}
+
+h1 {
+    color: var(--azul-claro);
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+/* Imagem principal */
+.hero img {
+    width: 40%;
+    height: auto;
+    border-bottom: 5px solid var(--azul-claro);
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+}
+
+/* Card da Música */
+.music-card {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.card {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    width: 90%;
+    max-width: 550px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.4);
+    border: 2px solid rgba(255,255,255,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 35px rgba(0,0,0,0.6);
+}
+
+.card h2 {
+    color: var(--azul-claro);
+    margin-bottom: 15px;
+}
+
+/* Estilo da letra */
+.lyrics p {
+    text-align: left;
+    line-height: 1.6;
+    font-size: 1rem;
+    background: rgba(0,0,0,0.2);
+    padding: 8px 12px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    border-left: 3px solid var(--azul-claro);
+}
+
+/* Player */
+audio {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 10px;
+}

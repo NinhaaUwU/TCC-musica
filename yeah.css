@@ -1,0 +1,39 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background: rgb(75, 75, 167);
+    color: rgb(79, 11, 11);
+}
+
+header {
+    background: rgb(96, 16, 16);
+    color: rgb(170, 208, 241);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+    font-size: 2.5rem;
+
+}
+
+header p{
+    font-size: 1.2rem;
+
+}
+
+section{
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+
+}
+    
+h2 {
+    color: black;
+}
+
+ul{
+    list-style: square;
+}
